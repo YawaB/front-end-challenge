@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react'
-import './gravity.css'
+import React, {useEffect, useState} from 'react';
+import './gravity.css';
 
 const Gravity = ({changeGravity, }) => {
     const [gravity, setGravity] = useState(12.5);

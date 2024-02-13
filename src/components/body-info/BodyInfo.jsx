@@ -1,5 +1,5 @@
-import React from 'react'
-import './body-info.css'
+import React from 'react';
+import './body-info.css';
 
 const NOT_DEFINED ='Undefined';
 const BodyInfo = ({body, isPlanet}) => {

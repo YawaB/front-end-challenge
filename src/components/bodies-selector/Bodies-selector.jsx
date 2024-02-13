@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react'
-import './bodies.css'
+import React, {useEffect, useState} from 'react';
+import './bodies.css';
 
 const BodiesSelector = ({isPlanet, gravity, onSelect}) => {
     const [bodies, setBodies] = useState([]);

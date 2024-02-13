@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './isPlanet.css'
+import './isPlanet.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCheckSquare} from "@fortawesome/free-solid-svg-icons";
 import {faSquare} from "@fortawesome/free-regular-svg-icons";
