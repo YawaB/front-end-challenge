@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-
 }
 .checkbox-icon {
     font-size: 1.5rem;
@@ -12,4 +11,8 @@
 .checkbox-label {
     font-size: 1.2rem;
 }
-
+@media (max-width: 768px) {
+    .checkbox-label {
+        font-size: .8rem;
+    }
+}

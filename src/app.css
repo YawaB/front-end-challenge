@@ -46,7 +46,7 @@ body{
 
 @media (max-width: 768px) {
     *{
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .app-container {
         width: 80vw;
