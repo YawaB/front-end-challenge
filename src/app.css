@@ -57,15 +57,15 @@ body{
 
     .bodies-div {
         flex-direction: column;
+        padding: 2rem;
     }
-
     .body-info {
-        width: 80%;
         font-size: .8rem;
     }
 
     .select {
         width: 100%;
+        margin-top: 1rem;
     }
     .checkbox-container{
         margin-bottom: 2rem;
