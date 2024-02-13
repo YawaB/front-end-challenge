@@ -35,7 +35,7 @@ const BodiesSelector = ({isPlanet, gravity, onSelect}) => {
             <h3>Bodies : </h3>
             <div className="select">
                 <select onChange={handleSelectChange}>
-                    <option selected>Select</option>
+                    <option defaultValue>Select</option>
                     {Array.isArray(filteredBodies) &&
                         filteredBodies.map((body) => (
                             <option key={body.id} value={body.id}>

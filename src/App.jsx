@@ -13,10 +13,14 @@ const App = () => {
         setSelectedBody(null);
     }
     const handleGravityChange = (gravityValue) => {
-        setGravity(gravityValue)
+        setGravity(gravityValue);
+        if (selectedBody && selectedBody.gravity && selectedBody.gravity > gravityValue) {
+            setSelectedBody(null);
+        }
     }
     const handleSelect = (body) => {
         setSelectedBody(body);
+        console.log(body);
     };
     return (
         <div className="App">
