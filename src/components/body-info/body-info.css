@@ -1,0 +1,9 @@
+.body-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    border: 1px solid var(--primary-color);
+}

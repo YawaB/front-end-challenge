@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('../public/css/fonts/Exo/Exo-VariableFont_wght.ttf') format('truetype');
+}:root {
+    --backgroung-color: #FAF2EA;
+    --primary-color: #226D68;
+}
+body{
+    font-family: Exo, sans-serif !important;
+}
+.App {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container {
+    background-color: var(--backgroung-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5rem;
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+}
+.container1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+    .app-container {
+        width: 80vw;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .bodies-div {
+        flex-direction: column;
+    }
+
+    .body-info {
+        width: 80%;
+        font-size: .8rem;
+    }
+
+    .select {
+        width: 100%;
+    }
+    .checkbox-container{
+        margin-bottom: 2rem;
+    }
+}
+

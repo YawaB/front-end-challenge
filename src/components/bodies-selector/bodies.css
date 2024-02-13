@@ -1,0 +1,55 @@
+.bodies-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+select {
+    appearance: none;
+    border: .1rem solid var(--primary-color);
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    background-color: #fff;
+    background-image: none;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+select:focus {
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 2rem;
+    border-radius: .25em;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    color: var(--backgroung-color);
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    padding: .5rem;
+    background-color: var(--primary-color);
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+/* Transition */
+.select:hover::after {
+    color: var(--backgroung-color);
+}
