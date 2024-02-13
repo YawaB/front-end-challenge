@@ -45,6 +45,9 @@ body{
 /*Responsive*/
 
 @media (max-width: 768px) {
+    *{
+        font-size: .8rem;
+    }
     .app-container {
         width: 80vw;
         padding: 1rem;
@@ -54,6 +57,7 @@ body{
         margin-bottom: .5rem !important;
     }
     .container1 {
+        margin-top: 2rem;
         flex-direction: column;
     }
 
