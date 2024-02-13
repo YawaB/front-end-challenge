@@ -25,11 +25,9 @@ const App = () => {
     return (
         <div className="App">
             <div className="app-container">
-                <div className="title">
                     <h2>
                         RHOBS Challenge
                     </h2>
-                </div>
                 <div className="container1">
                     <IsPlanet onCheckboxChange={handleCheckChange}/>
                     <Gravity changeGravity={handleGravityChange}/>
