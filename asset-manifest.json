@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/front-end-challenge/static/css/main.09b03cce.css",
+    "main.css": "/front-end-challenge/static/css/main.8f571ddd.css",
     "main.js": "/front-end-challenge/static/js/main.05a5c9a1.js",
     "static/media/Exo-VariableFont_wght.ttf": "/front-end-challenge/static/media/Exo-VariableFont_wght.6c037f7506ee86084662.ttf",
     "index.html": "/front-end-challenge/index.html",
-    "main.09b03cce.css.map": "/front-end-challenge/static/css/main.09b03cce.css.map",
+    "main.8f571ddd.css.map": "/front-end-challenge/static/css/main.8f571ddd.css.map",
     "main.05a5c9a1.js.map": "/front-end-challenge/static/js/main.05a5c9a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.09b03cce.css",
+    "static/css/main.8f571ddd.css",
     "static/js/main.05a5c9a1.js"
   ]
 }
