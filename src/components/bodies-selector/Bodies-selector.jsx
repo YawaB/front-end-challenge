@@ -3,7 +3,6 @@ import './bodies.css'
 
 const BodiesSelector = ({isPlanet, gravity, onSelect}) => {
     const [bodies, setBodies] = useState([]);
-    const [selectedBody, setSelectedBody] = useState(null);
 
     useEffect(() => {
         fetch('https://api.le-systeme-solaire.net/rest.php/bodies/')
@@ -18,11 +17,9 @@ const BodiesSelector = ({isPlanet, gravity, onSelect}) => {
     const handleSelectChange = (event) => {
         const selectedValue = event.target.value;
         const selectedBody = bodies.find((body) => body.id === selectedValue);
-        setSelectedBody(selectedBody);
-        if (onSelect) {
-            onSelect(selectedBody);
-        }
-    }
+        onSelect(selectedBody);
+    };
+
     const filteredBodies = bodies.filter((body) => {
         const isPlanetCondition = isPlanet ? body.isPlanet : !body.isPlanet;
         const gravityCondition = body.gravity <= gravity;
